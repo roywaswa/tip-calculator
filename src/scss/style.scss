@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
-@import './reset';
-@import './variables';
+@import "./reset";
+@import "./variables";
 
 :root {
   font-family: $font-family;
@@ -19,7 +19,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   background-color: $light-grayish-cyan;
   color: $dark-grayish-cyan;
 }
@@ -50,7 +50,6 @@ main {
   border-radius: 1.5rem;
   margin: 2rem 0;
   padding: 1.5rem;
-
 
   background-color: $white;
   box-shadow: 0 0.5rem 1rem $light-grayish-cyan;
@@ -87,33 +86,31 @@ main {
     line-height: 100%;
   }
 
-  .calculated-tip{
+  .calculated-tip {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
     width: 100%;
     .tip-details {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    
-        .details {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: flex-start;
-        }
-        .amount {
-          font-weight: $font-weight-bold;
-          font-size: $font-size-large;
-          color: $light-grayish-cyan;
-        }
-      }
-  }
-  
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
 
+      .details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      .amount {
+        font-weight: $font-weight-bold;
+        font-size: $font-size-large;
+        color: $light-grayish-cyan;
+      }
+    }
+  }
 }
 
 /* BUTTON */
@@ -125,7 +122,6 @@ button {
 
   width: 100%;
 
-
   margin: 0.5rem 0;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
@@ -135,5 +131,3 @@ button {
   color: $very-dark-cyan;
   cursor: pointer;
 }
-
-
