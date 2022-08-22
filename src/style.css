@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 
 :root {
   /* PRIMARY COLOR */
   --primary-color: hsl(172, 67%, 45%);
 
   /* NEUTRAL COLORS */
-  --very-dark-cyan: hsl(183, 100%, 15%) ;
-  --dark-grayish-cyan: hsl(186, 14%, 43%) ;
-  --grayish-cyan: hsl(184, 14%, 56%) ;
-  --light-grayish-cyan: hsl(185, 41%, 84%) ;
-  --very-light-grayish-cyan: hsl(189, 41%, 97%) ;
+  --very-dark-cyan: hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(186, 14%, 43%);
+  --grayish-cyan: hsl(184, 14%, 56%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --very-light-grayish-cyan: hsl(189, 41%, 97%);
   --white: hsl(0, 0%, 100%);
 
   /* FONT FAMILY */
-  --font-family:'Space Mono', monospace;
+  --font-family: "Space Mono", monospace;
 
   /* FONT SIZE */
   --font-size: 24px;
@@ -36,10 +36,9 @@
   background-color: var(--page-background-color);
   color: var(--page-text-color);
 
-    font-family: var(--font-family);
-      font-size: var(--font-size);
-      font-weight: var(--font-weight-normal);
-
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
