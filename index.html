@@ -8,7 +8,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/scss/style.scss" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tip calculator app | Frontend Mentor</title>
     <style>
@@ -27,7 +27,25 @@
       <div id="expenditure">
         <form action=""></form>
       </div>
-      <div id="tip"></div>
+      <div id="tip">
+        <div class="calculated-tip">
+          <div class="tip-details">
+            <div class="details">
+              <span>Tip Amount</span>
+            <span>/person</span>
+            </div>
+            <span class="amount">$0.00</span>
+          </div>
+          <div class="tip-details">
+            <div class="details">
+              <span>Total Amount</span>
+            <span>/person</span>
+            </div>
+            <span class="amount">$0.00</span>
+          </div>
+        </div>
+        <button>RESET</button>
+      </div>
     </main>
     <footer>
       <div class="attribution">
